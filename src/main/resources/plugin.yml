@@ -1,0 +1,4 @@
+name: ElytraLimiter
+version: 1.0-SNAPSHOT
+author: China2B2T
+main: org.china2b2t.elytralimiter.ElytraMain
