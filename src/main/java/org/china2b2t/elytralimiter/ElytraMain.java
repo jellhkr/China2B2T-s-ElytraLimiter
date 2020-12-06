@@ -17,7 +17,7 @@ public class ElytraMain extends JavaPlugin implements Listener{
 		// onDisable invoked!
     }
 	
-	@EventHandler
+    @EventHandler
     public void onPlayerMove(PlayerMoveEvent event) {
         if(event.getPlayer().isGliding()) {
             Vector x = event.getTo().toVector();
