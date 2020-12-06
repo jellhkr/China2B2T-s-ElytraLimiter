@@ -28,6 +28,7 @@ public class ElytraMain extends JavaPlugin implements Listener{
             Vector z = x.subtract(y);
             if((Math.abs(z.getX()) > 1 || Math.abs(z.getZ()) > 1) && z.getY() == 0) {
                 event.setCancelled(true);//如果符合拉回条件，则拉回
+		getLogger().info("One Player try use elytrafly.");
             }
         }
     }
